@@ -45,7 +45,7 @@ namespace QLSV.Controllers
         // GET: SinhViens/Edit/5
         public ActionResult Edit(string id)
         {
-            
+            //Sửa code tại đây
         }
 
         // POST: SinhViens/Edit/5
@@ -55,7 +55,7 @@ namespace QLSV.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "MaSV,HoTen,DiaChi,TenLop")] SinhVien sinhVien)
         {
-           
+           //Sửa code tại đây
         }
 
         // GET: SinhViens/Delete/5

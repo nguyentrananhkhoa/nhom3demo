@@ -45,7 +45,17 @@ namespace QLSV.Controllers
         // GET: SinhViens/Edit/5
         public ActionResult Edit(string id)
         {
-            //Sửa code tại đây
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            SinhVien sv = db.SinhViens.Find(id);
+            if (sv == null)
+            {
+                return HttpNotFound();
+            }
+            return View();
+
         }
 
         // POST: SinhViens/Edit/5
@@ -55,7 +65,13 @@ namespace QLSV.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "MaSV,HoTen,DiaChi,TenLop")] SinhVien sinhVien)
         {
-           //Sửa code tại đây
+            if (ModelState.IsValid)
+            {
+                db.Entry(sinhVien).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(sinhVien);
         }
 
         // GET: SinhViens/Delete/5

@@ -99,3 +99,8 @@ C:\Users\conan\source\repos\QLSV\QLSV\obj\Debug\QLSV.dll
 C:\Users\conan\source\repos\QLSV\QLSV\obj\Debug\QLSV.pdb
 C:\Users\conan\source\repos\QLSV\QLSV\obj\Debug\QLSV.Migrations.test.resources
 C:\Users\conan\source\repos\QLSV\QLSV\obj\Debug\QLSV.csproj.GenerateResource.cache
+C:\Users\Tinh Nguyen\Desktop\Do_an_2\nhom3demo\QLSVdemo\QLSV\obj\Debug\QLSV.csprojResolveAssemblyReference.cache
+C:\Users\Tinh Nguyen\Desktop\Do_an_2\nhom3demo\QLSVdemo\QLSV\obj\Debug\QLSV.Migrations.test.resources
+C:\Users\Tinh Nguyen\Desktop\Do_an_2\nhom3demo\QLSVdemo\QLSV\obj\Debug\QLSV.csproj.GenerateResource.Cache
+C:\Users\Tinh Nguyen\Desktop\Do_an_2\nhom3demo\QLSVdemo\QLSV\obj\Debug\QLSV.dll
+C:\Users\Tinh Nguyen\Desktop\Do_an_2\nhom3demo\QLSVdemo\QLSV\obj\Debug\QLSV.pdb
